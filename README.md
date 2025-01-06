@@ -1,5 +1,8 @@
 # Hotel Revenue Report
 
+## Table of Contents
+* [Business Requirements](#business-requirements)
+* [Data Source](#data-source)
 * [Objectives](#objectives)
 
 
