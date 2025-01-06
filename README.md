@@ -73,3 +73,32 @@ LEFT JOIN dbo.meal_cost$ ON hotels.meal = dbo.meal_cost$.meal
 ``` SQL
 CONVERT(DECIMAL(10,2),((stays_in_week_nights + stays_in_weekend_nights)*adr)*(1-Discount),2) AS Revenue
 ```
+4. Convert Stays(WeekNights) and Stays(WeekendNights) to type INT:
+
+``` SQL
+CAST(stays_in_week_nights AS INT) as "Stays in Week Nights",
+CAST(stays_in_weekend_nights AS INT) as "Stays in Weekend Nights"
+```
+Summary of SELECT statement:
+
+``` SQL
+SELECT 
+	CONVERT(VARCHAR(10), CAST(reservation_status_date AS DATE), 23) as "Reseveration Date",
+	arrival_date_day_of_month as "Arrival Date (Day)",
+	arrival_date_month as "Arrival Date (Month)",
+	arrival_date_year as "Arrival Date (Year)",
+	DATEFROMPARTS(arrival_date_year,(MONTH('1' + [arrival_date_month] +'00')),arrival_date_day_of_month) as "Booking Date",
+	CAST(stays_in_week_nights AS INT) as "Stays in Week Nights",
+	CAST(stays_in_weekend_nights AS INT) as "Stays in Weekend Nights",
+	CONVERT(DECIMAL(10,2),adr) as "Daily Rate",
+	Discount,
+	CONVERT(DECIMAL(10,2),((stays_in_week_nights + stays_in_weekend_nights)*adr)*(1-Discount),2) AS Revenue,
+	required_car_parking_spaces as "Required Parking Spaces",
+	hotel as Hotel,
+	country as Country
+	
+FROM dbo.Hotels
+
+LEFT JOIN dbo.market_segment$ ON hotels.market_segment = dbo.market_segment$.market_segment
+LEFT JOIN dbo.meal_cost$ ON hotels.meal = dbo.meal_cost$.meal
+```
