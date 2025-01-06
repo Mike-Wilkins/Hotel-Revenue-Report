@@ -8,6 +8,7 @@
 * [Data Cleaning](#data-cleaning)
 * [Test the Dataset](#test-the-dataset)
 * [Power BI Visualisation](#power-bi-visualisation)
+* [Alalysis](#analysis)
 
 
 ## Business Requirements
@@ -131,3 +132,4 @@ WHERE
 
 https://github.com/user-attachments/assets/ed8dfba2-b43f-4f9f-8a5e-578e65b3366e
 
+## Alalysis
