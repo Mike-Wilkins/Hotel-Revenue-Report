@@ -4,6 +4,7 @@
 * [Business Requirements](#business-requirements)
 * [Data Source](#data-source)
 * [Objectives](#objectives)
+* [Data Exploration Notes](#data-exploration-notes)
 
 
 ## Business Requirements
@@ -35,3 +36,8 @@ The hotel group have provided an Excel file containing five speadsheets:
 - Test the data with SQL
 - Visualise the data in Power BI
 - Generate the findings based on the insights
+
+## Data Exploration Notes
+- The separate booking records for 2018, 2019 and 2020 have identical column headers. These will need to be merged in order to perform trend insights.
+- After a single booking records dataset is created, we will need to join the Meal Costs and Market Segment tables to create a unified dataset.
+- The booking records do not contain a column for Revenue. This will need to be created in SQL. The revenue can be calculated using the Stays(WeekNights), Stays(WeekendNights), DailyRate and Discount columns.
