@@ -19,5 +19,5 @@ The hotel group have provided an Excel file containing five speadsheets:
 - 2018 Bookings
 - 2019 Bookings
 - 2020 Bookings
-- Meal Costs (FB, HB, BB)
-- Market Segment (Online, Direct, Group, Corporate bookings)
+- Meal Costs (FB, HB, BB, etc)
+- Market Segment (Online, Direct, Group, Corporate bookings, etc)
