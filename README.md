@@ -41,3 +41,18 @@ The hotel group have provided an Excel file containing five speadsheets:
 - The separate booking records for 2018, 2019 and 2020 have identical column headers. These will need to be merged in order to perform trend insights.
 - After a single booking records dataset is created, we will need to join the Meal Costs and Market Segment tables to create a unified dataset.
 - The booking records do not contain a column for Revenue. This will need to be created in SQL. The revenue can be calculated using the Stays(WeekNights), Stays(WeekendNights), DailyRate and Discount columns.
+- We have more data than we need, so some of these columns would need to be removed.
+
+## Data Cleaning
+The aim is to refine our dataset to ensure it is structured and ready for analysis.
+
+The cleaned data should meet the following criteria and constraints:
+- All tables should merged to create a single unified dataset with only relevant columns should be retained.
+- All data types should be appropriate for the contents of each column.
+- No column should contain null values, indicating complete data for all records.
+- A new Revenue column should be added to the dataset.
+
+``` Ruby
+class MyClass
+end
+```
