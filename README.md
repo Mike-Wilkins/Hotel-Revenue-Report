@@ -51,7 +51,6 @@ The cleaned data should meet the following criteria and constraints:
 - All tables should merged to create a single unified dataset with only relevant columns should be retained.
 - A new Revenue column should be added to the dataset.
 - All data types should be appropriate for the contents of each column.
-- No column should contain null values, indicating complete data for all records.
 
 1. Create a single booking records dataset:
 
@@ -104,7 +103,10 @@ FROM dbo.Hotels
 LEFT JOIN dbo.market_segment$ ON hotels.market_segment = dbo.market_segment$.market_segment
 LEFT JOIN dbo.meal_cost$ ON hotels.meal = dbo.meal_cost$.meal
 ```
-6. Check each column for NULLS, indicating complete data for all records.
+
+## Test the Dataset
+
+1. Check each column for NULLS, indicating complete data for all records.
 
 ``` SQL
 SELECT COUNT(*) AS 'Null Count'
@@ -118,4 +120,15 @@ WHERE
 	'Arrival Date (Month)' IS NULL
 
 -- Repeat for each column
+```
+2. All columns within the new dataset should have approproate data types.
+   
+``` SQL
+SELECT 
+	COLUMN_NAME, 
+	DATA_TYPE 
+FROM 
+	INFORMATION_SCHEMA.COLUMNS
+WHERE 
+	TABLE_NAME = 'HotelRevenueReport'
 ```
