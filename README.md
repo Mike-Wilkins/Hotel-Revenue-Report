@@ -51,7 +51,7 @@ The hotel group have provided an Excel file containing five speadsheets:
 The aim is to refine our dataset to ensure it is structured and ready for analysis.
 
 The cleaned data should meet the following criteria and constraints:
-- All tables should merged to create a single unified dataset with only relevant columns should be retained.
+- All tables should be merged to create a single unified dataset with only relevant columns being retained.
 - A new Revenue column should be added to the dataset.
 - All data types should be appropriate for the contents of each column.
 
