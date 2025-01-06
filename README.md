@@ -55,7 +55,7 @@ The cleaned data should meet the following criteria and constraints:
 - A new Revenue column should be added to the dataset.
 - All data types should be appropriate for the contents of each column.
 
-1. Create a single booking records dataset:
+**1. Create a single booking records dataset:**
 
 ``` SQL
 SELECT * INTO dbo.Hotels FROM dbo.['2018$']
@@ -64,24 +64,24 @@ SELECT * FROM dbo.['2019$']
 UNION
 SELECT * FROM dbo.['2020$']
 ```
-2. Join Meal Cost and Market Segment tables onto dbo.Hotels:
+**2. Join Meal Cost and Market Segment tables onto dbo.Hotels:**
 
 ``` SQL
 LEFT JOIN dbo.market_segment$ ON hotels.market_segment = dbo.market_segment$.market_segment
 LEFT JOIN dbo.meal_cost$ ON hotels.meal = dbo.meal_cost$.meal
 ```
-3. Create Revenue column of type DECIMAL within the SELECT statement:
+**3. Create Revenue column of type DECIMAL within the SELECT statement:**
    
 ``` SQL
 CONVERT(DECIMAL(10,2),((stays_in_week_nights + stays_in_weekend_nights)*adr)*(1-Discount),2) AS Revenue
 ```
-4. Convert Stays(WeekNights) and Stays(WeekendNights) to type INT:
+**4. Convert Stays(WeekNights) and Stays(WeekendNights) to type INT:**
 
 ``` SQL
 CAST(stays_in_week_nights AS INT) as "Stays in Week Nights",
 CAST(stays_in_weekend_nights AS INT) as "Stays in Weekend Nights"
 ```
-5. Create a view to store the transformed data:
+**5. Create a view to store the transformed data:**
 
 ``` SQL
 CREATE VIEW HotelRevenueReport AS
@@ -109,7 +109,7 @@ LEFT JOIN dbo.meal_cost$ ON hotels.meal = dbo.meal_cost$.meal
 
 ## Test the Dataset
 
-1. Check each column for NULLS, indicating complete data for all records.
+**1. Check each column for NULLS, indicating complete data for all records.**
 
 ``` SQL
 SELECT COUNT(*) AS 'Null Count'
@@ -124,7 +124,7 @@ WHERE
 
 -- Repeat for each column
 ```
-2. All columns within the new dataset should have approproate data types.
+**2. All columns within the new dataset should have approproate data types.**
 
 ![image](https://github.com/Mike-Wilkins/Hotel-Revenue-Report/blob/main/DataTypeSummary.png)
 
