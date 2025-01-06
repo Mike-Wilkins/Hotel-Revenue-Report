@@ -123,15 +123,5 @@ WHERE
 -- Repeat for each column
 ```
 2. All columns within the new dataset should have approproate data types.
-   
-``` SQL
-SELECT 
-	COLUMN_NAME, 
-	DATA_TYPE 
-FROM 
-	INFORMATION_SCHEMA.COLUMNS
-WHERE 
-	TABLE_NAME = 'HotelRevenueReport'
-```
 
 ![image](https://github.com/Mike-Wilkins/Hotel-Revenue-Report/blob/main/DataTypeSummary.png)
