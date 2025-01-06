@@ -126,7 +126,7 @@ WHERE
 
 ![image](https://github.com/Mike-Wilkins/Hotel-Revenue-Report/blob/main/DataTypeSummary.png)
 
-
+## Power Bi Visualisation
 
 https://github.com/user-attachments/assets/ed8dfba2-b43f-4f9f-8a5e-578e65b3366e
 
