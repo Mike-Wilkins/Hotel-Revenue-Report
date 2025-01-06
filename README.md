@@ -126,5 +126,3 @@ WHERE
 
 ![image](https://github.com/Mike-Wilkins/Hotel-Revenue-Report/blob/main/DataTypeSummary.png)
 
-https://github.com/Mike-Wilkins/Hotel-Revenue-Report/blob/main/HotelRevenueDashboardDemo.mp4
-
