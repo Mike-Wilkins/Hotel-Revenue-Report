@@ -125,3 +125,6 @@ WHERE
 2. All columns within the new dataset should have approproate data types.
 
 ![image](https://github.com/Mike-Wilkins/Hotel-Revenue-Report/blob/main/DataTypeSummary.png)
+
+
+https://github.com/Mike-Wilkins/MOTStatusApp/assets/26932135/9fc4e61c-02a6-4c82-9952-14cfb7106401
