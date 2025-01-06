@@ -49,9 +49,11 @@ The aim is to refine our dataset to ensure it is structured and ready for analys
 
 The cleaned data should meet the following criteria and constraints:
 - All tables should merged to create a single unified dataset with only relevant columns should be retained.
+- A new Revenue column should be added to the dataset.
 - All data types should be appropriate for the contents of each column.
 - No column should contain null values, indicating complete data for all records.
-- A new Revenue column should be added to the dataset.
+
+1. Create a single booking records dataset:
 
 ``` SQL
 SELECT * INTO dbo.Hotels FROM dbo.['2018$']
