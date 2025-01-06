@@ -5,6 +5,7 @@
 * [Data Source](#data-source)
 * [Objectives](#objectives)
 * [Data Exploration Notes](#data-exploration-notes)
+* [Data Cleaning](#data-cleaning)
 
 
 ## Business Requirements
