@@ -79,7 +79,7 @@ CONVERT(DECIMAL(10,2),((stays_in_week_nights + stays_in_weekend_nights)*adr)*(1-
 CAST(stays_in_week_nights AS INT) as "Stays in Week Nights",
 CAST(stays_in_weekend_nights AS INT) as "Stays in Weekend Nights"
 ```
-Create a view to store the transformed data:
+5. Create a view to store the transformed data:
 
 ``` SQL
 CREATE VIEW HotelRevenueReport AS
@@ -103,4 +103,19 @@ FROM dbo.Hotels
 
 LEFT JOIN dbo.market_segment$ ON hotels.market_segment = dbo.market_segment$.market_segment
 LEFT JOIN dbo.meal_cost$ ON hotels.meal = dbo.meal_cost$.meal
+```
+6. Check each column for NULLS, indicating complete data for all records.
+
+``` SQL
+SELECT COUNT(*) AS 'Null Count'
+FROM 
+	[Projects].[dbo].[HotelRevenueReport]
+WHERE 
+	'Reservation Date' IS NULL
+	OR
+	'Arrival Date (Day)' IS NULL
+	OR
+	'Arrival Date (Month)' IS NULL
+
+-- Repeat for each column
 ```
