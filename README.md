@@ -2,7 +2,8 @@
 
 ## Business Requirements
 
-As part of our company annual review, we would like to present our stakeholders 
+As part of our company annual review, we would like to present to our stakeholders a comprehensive dashboard
+detailing the business performance between 2018 and 2020.
 
 - **Is our hotel revenue growing by year?**<br/>
    We have two hotel types, so it would be good to segment revenue by hotel type.
