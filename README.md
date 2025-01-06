@@ -29,7 +29,7 @@ The hotel group have provided an Excel file containing five speadsheets:
 - Market Segment (Online, Direct, Group, Corporate bookings, etc)
 
 ## Objectives
-- Explore the data, provided by the hotel group, in Excel
+- Explore the Excel data provided by the client
 - Load the data into SQL Server (SSMS)
 - Clean the data with SQL
 - Test the data with SQL
