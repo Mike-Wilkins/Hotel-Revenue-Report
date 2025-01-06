@@ -8,7 +8,7 @@
 * [Data Cleaning](#data-cleaning)
 * [Test the Dataset](#test-the-dataset)
 * [Power BI Visualisation](#power-bi-visualisation)
-* [Alalysis](#analysis)
+* [Anlalysis](#analysis)
 
 
 ## Business Requirements
