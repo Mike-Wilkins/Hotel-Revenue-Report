@@ -1,2 +1,3 @@
 # Hotel Revenue Report
-SQL Server  Power BI  Excel
+
+## Business Requirements
