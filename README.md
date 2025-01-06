@@ -134,4 +134,4 @@ WHERE
 	TABLE_NAME = 'HotelRevenueReport'
 ```
 
-![ScreenShot]([https://github.com/Mike-Wilkins/Hotel-Revenue-Report/blob/main/DataTypeSummary.png]
+![image]([https://github.com/Mike-Wilkins/Hotel-Revenue-Report/blob/main/DataTypeSummary.png]
