@@ -1,5 +1,10 @@
 # Hotel Revenue Report
 
+---
+include_toc: true
+---
+
+
 ## Business Requirements
 
 As part of our company annual review, we would like to present to our stakeholders a comprehensive dashboard
