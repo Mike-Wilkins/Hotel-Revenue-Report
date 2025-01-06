@@ -79,9 +79,11 @@ CONVERT(DECIMAL(10,2),((stays_in_week_nights + stays_in_weekend_nights)*adr)*(1-
 CAST(stays_in_week_nights AS INT) as "Stays in Week Nights",
 CAST(stays_in_weekend_nights AS INT) as "Stays in Weekend Nights"
 ```
-Summary of SELECT statement:
+Create a view to store the transformed data:
 
 ``` SQL
+CREATE VIEW HotelRevenueReport AS
+
 SELECT 
 	CONVERT(VARCHAR(10), CAST(reservation_status_date AS DATE), 23) as "Reseveration Date",
 	arrival_date_day_of_month as "Arrival Date (Day)",
