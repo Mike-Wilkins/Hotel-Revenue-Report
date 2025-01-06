@@ -1,6 +1,6 @@
 # Hotel Revenue Report
 
-
+[Objectives](## Objectives)
 
 
 ## Business Requirements
