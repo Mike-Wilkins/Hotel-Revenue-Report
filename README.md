@@ -1,8 +1,6 @@
 # Hotel Revenue Report
 
----
-include_toc: true
----
+
 
 
 ## Business Requirements
