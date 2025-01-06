@@ -21,3 +21,11 @@ The hotel group have provided an Excel file containing five speadsheets:
 - 2020 Bookings
 - Meal Costs (FB, HB, BB, etc)
 - Market Segment (Online, Direct, Group, Corporate bookings, etc)
+
+## Objectives
+- Explore the data, provided by the hotel group, in Excel
+- Load the data into SQL Server (SSMS)
+- Clean the data with SQL
+- Test the data with SQL
+- Visualise the data in Power BI
+- Generate the findings based on the insights
