@@ -12,3 +12,5 @@ detailing the business performance between 2018 and 2020. The dashboard should a
    We want to understand whether there is a trend in guest with personal cars.
 - **What trends can we see in the data?**<br/>
    Focus on average daily rate and guests to explore seasonality.
+
+## Data Source
