@@ -52,7 +52,10 @@ The cleaned data should meet the following criteria and constraints:
 - No column should contain null values, indicating complete data for all records.
 - A new Revenue column should be added to the dataset.
 
-``` Ruby
-class MyClass
-end
+``` SQL
+SELECT * INTO dbo.Hotels FROM dbo.['2018$']
+UNION
+SELECT * FROM dbo.['2019$']
+UNION
+SELECT * FROM dbo.['2020$']
 ```
