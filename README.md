@@ -14,3 +14,10 @@ detailing the business performance between 2018 and 2020. The dashboard should a
    Focus on average daily rate and guests to explore seasonality.
 
 ## Data Source
+
+The hotel group have provided an Excel file containing five speadsheets:
+- 2018 Bookings
+- 2019 Bookings
+- 2020 Bookings
+- Meal Costs (FB, HB, BB)
+- Market Segment (Online, Direct, Group, Corporate bookings)
