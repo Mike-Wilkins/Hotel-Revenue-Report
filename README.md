@@ -6,6 +6,7 @@
 * [Objectives](#objectives)
 * [Data Exploration Notes](#data-exploration-notes)
 * [Data Cleaning](#data-cleaning)
+* [Test the Dataset](#test-the-dataset)
 
 
 ## Business Requirements
