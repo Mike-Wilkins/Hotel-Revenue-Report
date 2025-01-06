@@ -1,6 +1,9 @@
 # Hotel Revenue Report
 
 ## Business Requirements
+
+As part of our company annual review, we would like to present our stakeholders 
+
 - **Is our hotel revenue growing by year?**<br/>
    We have two hotel types, so it would be good to segment revenue by hotel type.
 - **Should we increase our parking lot size?**<br/>
