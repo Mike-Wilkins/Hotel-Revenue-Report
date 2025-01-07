@@ -130,7 +130,11 @@ WHERE
 
 ## Power Bi Visualisation
 
-https://github.com/user-attachments/assets/ed8dfba2-b43f-4f9f-8a5e-578e65b3366e
+
+
+https://github.com/user-attachments/assets/34a9a356-20f0-4bd8-a73e-a81d885c69f7
+
+
 
 ## Analysis
 - The data showed a positive trend in global revenue between the years 2018 and 2020 with City Hotels returning approx $1M more than Resort Hotels over that same period.
