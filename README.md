@@ -138,5 +138,5 @@ https://github.com/user-attachments/assets/34a9a356-20f0-4bd8-a73e-a81d885c69f7
 
 ## Analysis
 - The data showed a positive trend in global revenue between the years 2018 and 2020 with City Hotels returning approx $1M more than Resort Hotels over that same period.
-- Peak revenue for Resort Hotels appeared during July and August accross all time periods.
-- The results did not produce any definitive evidence that supports the need to expand customer parking areas in the future.
+- Peak revenue for Resort Hotels appeared during July and August across all time periods.
+- The results did not produce any definitive evidence supporting the need to expand customer parking areas in the future.
