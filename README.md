@@ -133,3 +133,4 @@ WHERE
 https://github.com/user-attachments/assets/ed8dfba2-b43f-4f9f-8a5e-578e65b3366e
 
 ## Analysis
+- The data showed a positive trend in revenue between the years 2018 and 2020.
